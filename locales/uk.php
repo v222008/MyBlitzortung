@@ -663,7 +663,7 @@ $_BL['uk']['stat_navi_other'] = 'Інше';
 $_BL['uk']['stat_navi_network'] = 'Мережа';
 $_BL['uk']['arch_navi_search'] = 'Пошук';
 $_BL['uk']['arch_navi_signals'] = 'Сигнали';
-$_BL['uk']['stat_navi_longtime'] = ' час';
+$_BL['uk']['stat_navi_longtime'] = 'Записи за весь час';
 $_BL['uk']['stat_navi_advanced'] = 'Додатково';
 
 
@@ -1051,7 +1051,7 @@ $_BL['uk']['search_outside_radius'] = 'Пошук за межами кола н�
 $_BL['uk']['Links'] = 'Посилання';
 $_BL['uk']['Login string is'] = 'Login string is';
 $_BL['uk']['Auth ID is'] = 'Auth ID is';
-$_BL['uk']['Logging out from Blitzortung.org'] = 'Вихід з Blitzortung.org';
+$_BL['uk']['Logging out from Blitzortung.org'] = 'Вихід з сайту Blitzortung.org';
 $_BL['uk']['Already DONE BEFORE'] = 'Вже зроблено раніше';
 $_BL['uk']['Update database keys'] = 'Оновити ключі бази даних';
 $_BL['uk']['without GPS'] = 'без GPS';
@@ -1287,7 +1287,7 @@ $_BL['uk']['Show their signals'] = 'Показати свої сигнали';
 $_BL['uk']['max.'] = 'макс.';
 $_BL['uk']['min.'] = 'мін.';
 $_BL['uk']['Tracker'] = 'Версія програми трекера';
-$_BL['uk']['Status'] = 'Etat';
+$_BL['uk']['Status'] = 'Статус';
 $_BL['uk']['graph_stat_title_ratio_distance_longtime'] = '';
 $_BL['uk']['graph_stat_title_ratio_bearing_longtime'] = '';
 $_BL['uk']['graph_stat_title_participants_time'] = '';

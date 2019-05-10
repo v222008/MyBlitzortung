@@ -19,7 +19,7 @@ $_BL['uk']['is_utf8'] = true;
 
 
 //Translated name of MyBlitzortung with html tags
-$_BL['uk']['MyBlitzortung'] = '<span class="bo_my">Моя</span><span class="bo_mybo">радіолокаційна станція знаходження блискавки</span>';
+$_BL['uk']['MyBlitzortung'] = '<span class="bo_my">Моя </span><span class="bo_mybo">радіолокаційна станція знаходження блискавки</span>';
 
 //Translated name of MyBlitzortung without html tags
 $_BL['uk']['MyBlitzortung_notags'] = 'Моя радіолокаційна станція знаходження блискавки';

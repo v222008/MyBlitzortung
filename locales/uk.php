@@ -750,14 +750,14 @@ $_BL['uk']['bo_graph_descr_radi'] = 'Overview about the own locating ratio over 
 $_BL['uk']['bo_graph_descr_strikes'] = 'Тут ви можете побачити загалну кількість розрядів за кілька годин виявлених у мережі блискавок, кількість виявлених розрядів на годину станції {STATION_CITY} і середня кількість розрядів для всіх станцій';
 $_BL['uk']['bo_graph_descr_signals'] = 'Кількість прийнятих сигналів на годину станції {STATION_CITY} а також середнє значення по всіх станціях.';
 $_BL['uk']['bo_stat_other_antennas_descr'] = 'Напрям антен може бути виявлений автоматично {MYBO}. Це корисно для визначення полярності розряду (дуже експериментально!).';
-$_BL['uk']['bo_graph_descr_radi_longtime'] = 'This graph shows the stroke ratio over distance since start of data collecting.';
-$_BL['uk']['bo_graph_descr_bear_longtime'] = 'This graph shows the stroke ratio over geographic direction since start of data collecting.';
-$_BL['uk']['bo_graph_descr_strikes_time'] = 'Graph of stroke count of the lightning detection network respectively of the station {STATION}';
-$_BL['uk']['bo_graph_descr_strikes_time_radius'] = 'Same as above, but only strokes within a range around {RADIUS}km of the station {STATION} are counted.';
-$_BL['uk']['bo_graph_stations'] = 'Active stations are sending signales and participate actively in the lightning detection network. Available stations are currently offline, because of technical difficulties and so on.';
+$_BL['uk']['bo_graph_descr_radi_longtime'] = 'Цей графік показує коефіцієнт розрядів по відстані від початку збору даних.';
+$_BL['uk']['bo_graph_descr_bear_longtime'] = 'Цей графік показує коефіцієнт розрядів по географічному напрямку з моменту початку збору даних.';
+$_BL['uk']['bo_graph_descr_strikes_time'] = 'Графік підрахунку ударів мережі виявлення блискавки відповідно станції {STATION}';
+$_BL['uk']['bo_graph_descr_strikes_time_radius'] = 'Те ж, що й вище, але тільки розряди в межах діапазону навколо {RADIUS}км станції {STATION}, які підраховані.';
+$_BL['uk']['bo_graph_stations'] = 'Активні станції надсилають сигнали і беруть активну участь у мережі виявлення блискавок. Наявні станції зараз перебувають в автономному режимі через технічні труднощі тощо.';
 $_BL['uk']['bo_graph_participants'] = 'Для виявлення і локалізації розряду, мінімально {MIN_PARTICIPANTS} станцій повинні отримати сигнал.';
 $_BL['uk']['bo_graph_log_warn'] = 'Підказка: логарифмічна шкала!';
-$_BL['uk']['bo_graph_participants_time'] = 'Count of participants. You can view the development per participation count value or the mean participation count.';
+$_BL['uk']['bo_graph_participants_time'] = 'Кількість учасників. Ви можете переглядати значення розрахунку участі або кількість учасників.';
 $_BL['uk']['bo_graph_descr_radi_adv'] = 'Такі ж, як коефіцієнти розряду в статистиці станції, але тут ви можете вибрати канал.';
 $_BL['uk']['bo_graph_descr_bear_adv'] = 'Такі ж, як коефіцієнти розряду в статистиці станції, але тут ви можете вибрати канал.';
 $_BL['uk']['bo_graph_spectrum'] = 'У кожному окремому спектрі сигналу є частота з максимальним піком. Сума амплітуд цих піків для кожної частоти відображається тут.';
@@ -814,7 +814,7 @@ $_BL['uk']['archive_striketable_info'] = 'Тут ви можете побачи�
 
 $_BL['uk']['archive_signaltable_info_bottom'] = '
 <p>
-If a lightning stroke was detected, some additional information correspondending to the station {STATION} will be displayed.
+При ударі блискавки, яку було виявлено, деяку додаткову інформацію що відповідає станції {STATION} буде відображено.
 </p>
 <ul>
 <li><span class="bo_descr">Runtime:</span> Difference between time of stroke and reception</li>

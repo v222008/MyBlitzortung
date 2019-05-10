@@ -795,11 +795,11 @@ $_BL['uk']['archive_density_info'] = '
 ';
 
 $_BL['uk']['archive_signaltable_info'] = '
-Ever lightning detection stations of the Blitzortung.org network receives signal from strokes and also
-more or less noise. Here you can see some of the signals, that where received from the station {STATION}
-during the last minutes.
-If other stations receives the same signal during a very short time range then maybe a lightning can be
-located out of the correspondending times (time of arrival method - TOA).
+Кожна станції виявлення блискавок мережі Blitzortung.org отримує сигнал від спалахів як і з малим так і з великим рівнем шуму. 
+Тут ви можете побачити деякі сигнали, які були отримані від станції {STATION}
+протягом останніх хвилин.
+Якщо інші станції отримують один і той же сигнал протягом дуже короткого діапазону часу, то може бути блискавка
+розташовані поза відповідних часових проміжків (time of arrival method - TOA).
 In this case additional information about the lightning stroke will be displayed here.
 ';
 

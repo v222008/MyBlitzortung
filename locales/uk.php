@@ -663,7 +663,7 @@ $_BL['uk']['stat_navi_other'] = 'Інше';
 $_BL['uk']['stat_navi_network'] = 'Мережа';
 $_BL['uk']['arch_navi_search'] = 'Пошук';
 $_BL['uk']['arch_navi_signals'] = 'Сигнали';
-$_BL['uk']['stat_navi_longtime'] = 'Довгий час';
+$_BL['uk']['stat_navi_longtime'] = ' час';
 $_BL['uk']['stat_navi_advanced'] = 'Додатково';
 
 
@@ -1000,6 +1000,7 @@ $_BL['uk']['Rome'] = 'Рим';
 $_BL['uk']['Lithuania'] = 'Литва';
 $_BL['uk']['Ireland'] = 'Ірландія';
 
+
 //Europe: Regions
 $_BL['uk']['Europe'] = 'Європа';
 $_BL['uk']['Western Europe'] = 'Західна Європа';
@@ -1054,7 +1055,7 @@ $_BL['uk']['Logging out from Blitzortung.org'] = 'Вихід з Blitzortung.org'
 $_BL['uk']['Already DONE BEFORE'] = 'Вже зроблено раніше';
 $_BL['uk']['Update database keys'] = 'Оновити ключі бази даних';
 $_BL['uk']['without GPS'] = 'без GPS';
-$_BL['uk']['Record longtime data since'] = 'Record longtime data since';
+$_BL['uk']['Record longtime data since'] = 'Самий давній запис';
 $_BL['uk']['Show all signals'] = 'Показати всі сигнали';
 $_BL['uk']['no_lightning_data'] = 'Немає даних блискавок!';
 

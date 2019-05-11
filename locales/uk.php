@@ -740,12 +740,12 @@ $_BL['uk']['bo_stat_other_database_descr'] = 'Всі дані розряду, с
 $_BL['uk']['bo_stat_other_updates_descr'] = 'Нові дані, зібрані з blitzortung.org у визначені проміжки часу:';
 $_BL['uk']['bo_stat_other_gps_descr'] = 'Трохи інформації про GPS-приймач, який використовується для отримання точного часу і позиції. Якщо відомо, будова антени також відображається (червона, зелена).';
 $_BL['uk']['bo_stat_station_descr_lasth'] = '
-Тут ви можете знайти статистику МЧП станції виявлення блискавок {STATION_CITY}. 
-Станція приймає електромагнітні сигнали, що випромінюються блискавкою. Вони направляються на сервер Blitzortung.org, де за 
-допомогою даних позиції і часу блискавки інших станцій все обчислюється. 
-Проте, не кожен сигнал надходить від спалаху і тому не є ударом блискавки.
-Інформацію про коефіцієнти виявлення і страйки надаються (див. Нижче) 
-Крім того, потрібно як мінімум {MIN_PARTICIPANTS} Станції прийому сигналу від спалаху, щоб розрахувати її позицію.
+Тут ви можете знайти статистику МЧП станції виявлення блискавок {STATION_CITY}.\n 
+Станція приймає електромагнітні сигнали, що випромінюються блискавкою. \nВони направляються на сервер Blitzortung.org, де за 
+допомогою даних позиції і часу блискавки інших станцій все обчислюється.\n 
+Проте, не кожен сигнал надходить від спалаху і тому не є ударом блискавки.\n
+Інформацію про коефіцієнти виявлення і страйки надаються (див. Нижче)\n 
+Крім того, потрібно як мінімум {MIN_PARTICIPANTS} Станції прийому сигналу від спалаху, щоб розрахувати її позицію.\n
 Якщо разом зі станцією {STATION_CITY} приймуть участь в позиціонуванні інші Станції прийому сигналу в кількості до {MIN_PARTICIPANTS}, це буде
 вважається як "власна" блискавка.';
 $_BL['uk']['bo_graph_descr_radi'] = 'Overview about the own locating ratio over distance from stations. Whole stroke count over distance is also visible.';
@@ -926,22 +926,22 @@ The following things will happen, when you click on the link below:
 </p>
 
 <ul>
-<li>1. Your station id and the url of this website will be send to <em>{LINK_HOST}</em>.
+<li>1. Ваш ідентифікатор станції та URL цього сайту будуть надіслані <em>{LINK_HOST}</em>.
 </li>
-<li>2. You will get all urls of the other stations that are currently in the list.
+<li>2. Ви отримаєте всі адреси інших станцій, які наразі знаходяться у списку.
 </li>
 </ul>
 
 <p>
-You have to update the data from time to time, so that new stations will appear,
-or you can use the auto-update feature.
+Час від часу потрібно оновлювати дані, щоб з\'являлися нові станції,
+або ви можете скористатися функцією автоматичного оновлення.
 </p>
 
 <p>
-To authenticate you as a blitzortung.org member, a login-id will be requestet at blitzortung.org.
-This id will be sent to <em>{LINK_HOST}</em> and there it will rechecked again at blitzortung.org.
-The id will not be saved! Your password will never be sent to other websites than blitzortung.org!
-Your stations must have sended at least one signal in the last 2 hours, otherwise authentication won\'t work.
+Щоб авторизуватися як член blitzortung.org, ідентифікатор входу буде запитуватися на blitzortung.org.
+Цей ідентифікатор буде надіслано <em>{LINK_HOST}</em> і він знову буде перевірений на blitzortung.org.
+Ідентифікатор не буде збережено! Ваш пароль ніколи не надсилатиметься на інші сайти, ніж blitzortung.org!
+Ваші станції повинні відправити хоча б один сигнал за останні 2 години, інакше аутентифікація не працюватиме.
 </p>';
 
 
@@ -1056,7 +1056,7 @@ $_BL['uk']['Auth ID is'] = 'Auth ID is';
 $_BL['uk']['Logging out from Blitzortung.org'] = 'Вихід з сайту Blitzortung.org';
 $_BL['uk']['Already DONE BEFORE'] = 'Вже зроблено раніше';
 $_BL['uk']['Update database keys'] = 'Оновити ключі бази даних';
-$_BL['uk']['without GPS'] = 'без GPS';
+$_BL['uk']['without GPS'] = 'без сигналу GPS';
 $_BL['uk']['Record longtime data since'] = 'Самий давній запис';
 $_BL['uk']['Show all signals'] = 'Показати всі сигнали';
 $_BL['uk']['no_lightning_data'] = 'Немає даних блискавок!';

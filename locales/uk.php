@@ -3,7 +3,7 @@
 /*
 * Ukrainian translation by laser
 * 01/07/2018 mailto:student.laser@gmail.com
-* 10.05.2019 uptate and fix by lyova
+* 10.05.2019 update and fix by lyova
 */
 
 $_BL['locale'] = 'uk';
